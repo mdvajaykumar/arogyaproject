@@ -1,0 +1,35 @@
+<div>
+    <h1 class="text-center">users Page</h1>
+</div>
+<div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">hospital</th>
+            <th scope="col">phone</th>
+            <th scope="col">email</th>
+            <th scope="col">location</th>
+            <th scope="col">beds</th>
+            <th scope="col">ventalitors</th>
+            <th scope="col">criticalUnit</th>
+            <th scope="col">isolationWard</th>
+            <th scope="col">action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let hosp of hospitals">
+            <th scope="row">{{hosp.id}}}</th>
+            <td>{{hosp.hospital}}</td>
+            <td>{{hosp.phone}}</td>
+            <td>{{hosp.email}}</td>
+            <td>{{hosp.location}}</td>
+            <td>{{hosp.beds}}</td>
+            <td>{{hosp.ventilation}}</td>
+            <td>{{hosp.criticalUnit}}</td>
+            <td>{{hosp.isolationWard}}</td>
+            <td><button type="button" class="btn btn-primary">Register</button></td>
+          </tr>
+        </tbody>
+      </table>
+</div>

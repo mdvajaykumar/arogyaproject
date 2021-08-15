@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "hospital": "krishnaHospital",
+      "phone": "9398200965",
+      "email": "majaykumar481@",
+      "location": "hyderabad",
+      "beds": 25,
+      "ventilation": 34,
+      "criticalUnit": 45,
+      "isolationWard": 32
+    },
+    {
+      "id": 3,
+      "hospital": "krishnaHospital",
+      "phone": "9398200965",
+      "email": "majaykumar481@",
+      "location": "hyderabad",
+      "beds": 25,
+      "ventilation": 34,
+      "criticalUnit": 45,
+      "isolationWard": 32
+    },
+    {
+      "id": 4,
+      "hospital": "krishnaHospital",
+      "phone": "9398200965",
+      "email": "majaykumar481@",
+      "location": "hyderabad",
+      "beds": 25,
+      "ventilation": 34,
+      "criticalUnit": 45,
+      "isolationWard": 32
+    },
+    {
+      "id": 5,
+      "hospital": "krishnaHospital",
+      "phone": "9398200965",
+      "email": "majaykumar481@",
+      "location": "hyderabad",
+      "beds": 25,
+      "ventilation": 34,
+      "criticalUnit": 45,
+      "isolationWard": 32
+    },
+    {
+      "id": 6,
+      "hospital": "ajay",
+      "phone": "9398200965",
+      "email": "majaykumar481@",
+      "location": "hyderabad",
+      "beds": 246,
+      "ventilation": 34,
+      "criticalUnit": 45,
+      "isolationWard": 32
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
